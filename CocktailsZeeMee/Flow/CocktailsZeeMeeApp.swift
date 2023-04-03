@@ -11,7 +11,10 @@ import SwiftUI
 struct CocktailsZeeMeeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                CocktailListView()
+            }
+            .environment(\.colorScheme, .light)
         }
     }
 }
