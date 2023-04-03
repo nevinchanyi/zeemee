@@ -35,7 +35,7 @@ struct CocktailDetailsView: View {
                         .padding()
                         
                         LazyVStack(alignment: .leading) {
-                            Text("^[\(viewModel.ingredients.count) ingredients](inflect: true)")
+                            Text("^[\(viewModel.ingredients.count) ingredient](inflect: true)")
                                 .modifier(HeaderModifier())
                             
                             ForEach(viewModel.ingredients) { ingredient in

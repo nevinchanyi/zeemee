@@ -88,7 +88,6 @@
 				735F2C0D29DB35F500A49C1B /* CocktailDetails */,
 				735F2C0C29DB35EA00A49C1B /* CocktailList */,
 				73772C2E29D8B87D00A73006 /* CocktailsZeeMeeApp.swift */,
-				7354812A29DA03B000469BF6 /* CocktailCellView.swift */,
 			);
 			path = Flow;
 			sourceTree = "<group>";
@@ -96,6 +95,7 @@
 		735F2C0C29DB35EA00A49C1B /* CocktailList */ = {
 			isa = PBXGroup;
 			children = (
+				7354812A29DA03B000469BF6 /* CocktailCellView.swift */,
 				73772C3029D8B87D00A73006 /* CocktailListView.swift */,
 				7396203029DA58E70092C4B7 /* CocktailListViewModel.swift */,
 			);
